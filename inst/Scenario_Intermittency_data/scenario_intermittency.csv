@@ -1,0 +1,309 @@
+Country,Scenario,Year,Range,Variable,Technology,Unit,Value
+FR,M0 – Reference,2050,High,Curtailment fraction,NA,Dmnl,0.031085604973697
+FR,M0 – Reference,2050,High,Storage fraction,Batteries,Dmnl,0.051968754981668
+FR,M0 – Reference,2050,High,Storage fraction,P2H,Dmnl,0.067272437430257
+FR,M0 – Reference,2050,High,Storage fraction,PHS,Dmnl,0.033955045432807
+FR,M1 – Reference,2050,Other,Curtailment fraction,NA,Dmnl,0.028171641791045
+FR,M1 – Reference,2050,Other,Storage fraction,Batteries,Dmnl,0.048694029850746
+FR,M1 – Reference,2050,Other,Storage fraction,P2H,Dmnl,0.051305970149254
+FR,M1 – Reference,2050,Other,Storage fraction,PHS,Dmnl,0.038992537313433
+FR,M23 – Reference,2050,Medium,Curtailment fraction,NA,Dmnl,0.010708722741433
+FR,M23 – Reference,2050,Medium,Storage fraction,Batteries,Dmnl,0.02940031152648
+FR,M23 – Reference,2050,Medium,Storage fraction,P2H,Dmnl,0.046923676012461
+FR,M23 – Reference,2050,Medium,Storage fraction,PHS,Dmnl,0.037772585669782
+UK,Consumer Transformation,2050,Other,Curtailment fraction,NA,Dmnl,0.058891123240448
+UK,Consumer Transformation,2050,Other,Storage fraction,Batteries,Dmnl,0.078497558172939
+UK,Consumer Transformation,2050,Other,Storage fraction,PHS,Dmnl,0.093119793162884
+UK,Consumer Transformation,2050,Other,Storage fraction,LAES,Dmnl,0.023154266015513
+UK,Consumer Transformation,2050,Other,Storage fraction,CAES,Dmnl,0.043105429474289
+UK,Consumer Transformation,2050,Other,Storage fraction,P2H,Dmnl,0.079000287273772
+UK,System Transformation,2050,Medium,Curtailment fraction,NA,Dmnl,0.023647554259799
+UK,System Transformation,2050,Medium,Storage fraction,Batteries,Dmnl,0.05591188856495
+UK,System Transformation,2050,Medium,Storage fraction,PHS,Dmnl,0.075639779721412
+UK,System Transformation,2050,Medium,Storage fraction,LAES,Dmnl,0.019630709426628
+UK,System Transformation,2050,Medium,Storage fraction,CAES,Dmnl,0.036459345643019
+UK,System Transformation,2050,Medium,Storage fraction,P2H,Dmnl,0.069107007882518
+UK,Leading the Way,2050,High,Curtailment fraction,NA,Dmnl,0.001219884111009
+UK,Leading the Way,2050,High,Storage fraction,Batteries,Dmnl,0.096401341872522
+UK,Leading the Way,2050,High,Storage fraction,PHS,Dmnl,0.130878316559927
+UK,Leading the Way,2050,High,Storage fraction,LAES,Dmnl,0.027020433058859
+UK,Leading the Way,2050,High,Storage fraction,CAES,Dmnl,0.045760902714242
+UK,Leading the Way,2050,High,Storage fraction,P2H,Dmnl,0.026430822405205
+EU,Distributed Energy,2050,High,Curtailment fraction,NA,Dmnl,0.03
+EU,Distributed Energy,2050,High,Storage fraction,Batteries,Dmnl,0.130426356589147
+EU,Distributed Energy,2050,High,Storage fraction,PHS,Dmnl,0.016279069767442
+EU,Distributed Energy,2050,High,Storage fraction,P2H,Dmnl,0.383720930232558
+EU,Global Ambition,2050,Medium,Curtailment fraction,NA,Dmnl,0.03
+EU,Global Ambition,2050,Medium,Storage fraction,Batteries,Dmnl,0.081682562973832
+EU,Global Ambition,2050,Medium,Storage fraction,PHS,Dmnl,0.01785277573979
+EU,Global Ambition,2050,Medium,Storage fraction,P2H,Dmnl,0.485972819061595
+US,DAC,2050,Other,Curtailment fraction,NA,Dmnl,0.017579484199678
+US,DAC,2050,Other,Storage fraction,Batteries,Dmnl,0.120709807715886
+US,DAC,2050,Other,Storage fraction,PHS,Dmnl,0.00695168794607
+US,DAC_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.039085931274573
+US,DAC_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.113058462105675
+US,DAC_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.000960949263388
+US,DAC_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.037698269681626
+US,DAC_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.146650651210764
+US,DAC_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.004740652823335
+US,DAC_95by2050_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.053039814435075
+US,DAC_95by2050_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.151664235101988
+US,DAC_95by2050_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.003050474272414
+US,DAC_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.034763645314873
+US,DAC_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.139669277766927
+US,DAC_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.005164703194482
+US,High_Demand_Growth,2050,Other,Curtailment fraction,NA,Dmnl,0.023634764293604
+US,High_Demand_Growth,2050,Other,Storage fraction,Batteries,Dmnl,0.146110355805492
+US,High_Demand_Growth,2050,Other,Storage fraction,PHS,Dmnl,0.007571664783085
+US,High_Demand_Growth_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.039980668312459
+US,High_Demand_Growth_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.14567055733843
+US,High_Demand_Growth_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.003549963855396
+US,High_Demand_Growth_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.051569779731687
+US,High_Demand_Growth_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.170898849911963
+US,High_Demand_Growth_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.003224614699387
+US,High_Demand_Growth_95by2050_NoNascent,2050,High,Curtailment fraction,NA,Dmnl,0.141564476424719
+US,High_Demand_Growth_95by2050_NoNascent,2050,High,Storage fraction,Batteries,Dmnl,0.244625524315898
+US,High_Demand_Growth_95by2050_NoNascent,2050,High,Storage fraction,PHS,Dmnl,0.00325161555492
+US,High_Demand_Growth_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.116856364874182
+US,High_Demand_Growth_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.200673309371217
+US,High_Demand_Growth_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.00424330202356
+US,High_NG_Price,2050,Other,Curtailment fraction,NA,Dmnl,0.034316940638854
+US,High_NG_Price,2050,Other,Storage fraction,Batteries,Dmnl,0.146141709496685
+US,High_NG_Price,2050,Other,Storage fraction,PHS,Dmnl,0.003972388684426
+US,High_NG_Price_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.047145707590545
+US,High_NG_Price_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.12696250837551
+US,High_NG_Price_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.002939948955529
+US,High_NG_Price_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.062538693450078
+US,High_NG_Price_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.147194681142818
+US,High_NG_Price_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.001483650851046
+US,High_NG_Price_95by2050_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.07807106298123
+US,High_NG_Price_95by2050_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.158562540375444
+US,High_NG_Price_95by2050_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.001125797593104
+US,High_NG_Price_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.030347791305955
+US,High_NG_Price_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.145853108046787
+US,High_NG_Price_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.003568881693869
+US,High_RE_Cost,2050,Other,Curtailment fraction,NA,Dmnl,0.047369903700929
+US,High_RE_Cost,2050,Other,Storage fraction,Batteries,Dmnl,0.087670913195065
+US,High_RE_Cost,2050,Other,Storage fraction,PHS,Dmnl,0.029321447772188
+US,High_RE_Cost_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.026106725465286
+US,High_RE_Cost_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.082576221151365
+US,High_RE_Cost_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.013755798472258
+US,High_RE_Cost_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.0748630335546
+US,High_RE_Cost_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.10534602759402
+US,High_RE_Cost_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.03379921441064
+US,High_RE_Cost_95by2050_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.109433017842734
+US,High_RE_Cost_95by2050_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.121399133780894
+US,High_RE_Cost_95by2050_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.02932312736929
+US,High_RE_Cost_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.055753496723313
+US,High_RE_Cost_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.084225217922215
+US,High_RE_Cost_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.026092979005228
+US,High_Trans,2050,Other,Curtailment fraction,NA,Dmnl,0.009464698955489
+US,High_Trans,2050,Other,Storage fraction,Batteries,Dmnl,0.103057081429269
+US,High_Trans,2050,Other,Storage fraction,PHS,Dmnl,0.007925662868898
+US,High_Trans_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.040686049755112
+US,High_Trans_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.11549060627082
+US,High_Trans_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.002999097993115
+US,High_Trans_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.033554958580105
+US,High_Trans_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.127497562954331
+US,High_Trans_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.002093422790714
+US,High_Trans_95by2050_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.056511123487927
+US,High_Trans_95by2050_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.140235817898648
+US,High_Trans_95by2050_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.001021763968399
+US,High_Trans_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.015286667554465
+US,High_Trans_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.110205140608264
+US,High_Trans_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.005172969260101
+US,Low_Demand_Growth,2050,Other,Curtailment fraction,NA,Dmnl,0.020280120754818
+US,Low_Demand_Growth,2050,Other,Storage fraction,Batteries,Dmnl,0.096407152848478
+US,Low_Demand_Growth,2050,Other,Storage fraction,PHS,Dmnl,0.006813980415923
+US,Low_Demand_Growth_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.036972119900788
+US,Low_Demand_Growth_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.098561677274667
+US,Low_Demand_Growth_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.004176271689637
+US,Low_Demand_Growth_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.034084786178287
+US,Low_Demand_Growth_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.107003238272405
+US,Low_Demand_Growth_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.00593110853333
+US,Low_Demand_Growth_95by2050_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.054782469770329
+US,Low_Demand_Growth_95by2050_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.117592417754761
+US,Low_Demand_Growth_95by2050_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.006086612523092
+US,Low_Demand_Growth_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.032570250063519
+US,Low_Demand_Growth_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.108872801472312
+US,Low_Demand_Growth_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.007873764495123
+US,Low_NG_Price,2050,Other,Curtailment fraction,NA,Dmnl,0.088396001826303
+US,Low_NG_Price,2050,Other,Storage fraction,Batteries,Dmnl,0.186180243052768
+US,Low_NG_Price,2050,Other,Storage fraction,PHS,Dmnl,0.006889154516291
+US,Low_NG_Price_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.034553186717863
+US,Low_NG_Price_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.147335343580777
+US,Low_NG_Price_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.003901058031315
+US,Low_NG_Price_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.138869369309745
+US,Low_NG_Price_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.204059923229284
+US,Low_NG_Price_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.004390444460226
+US,Low_NG_Price_95by2050_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.183488168687684
+US,Low_NG_Price_95by2050_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.199187653701207
+US,Low_NG_Price_95by2050_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.003243436222482
+US,Low_NG_Price_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.08605855130361
+US,Low_NG_Price_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.185133404872583
+US,Low_NG_Price_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.005744050113906
+US,Low_Nuclear_CCS_Cost,2050,Other,Curtailment fraction,NA,Dmnl,0.01666159313166
+US,Low_Nuclear_CCS_Cost,2050,Other,Storage fraction,Batteries,Dmnl,0.115598047736815
+US,Low_Nuclear_CCS_Cost,2050,Other,Storage fraction,PHS,Dmnl,0.009539531555172
+US,Low_Nuclear_CCS_Cost_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.025771243143262
+US,Low_Nuclear_CCS_Cost_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.153281824291653
+US,Low_Nuclear_CCS_Cost_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.003178392970549
+US,Low_Nuclear_CCS_Cost_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.021018432352433
+US,Low_Nuclear_CCS_Cost_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.12864081015359
+US,Low_Nuclear_CCS_Cost_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.006745824610593
+US,Low_Nuclear_CCS_Cost_95by2050_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.065486153732126
+US,Low_Nuclear_CCS_Cost_95by2050_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.160930124306296
+US,Low_Nuclear_CCS_Cost_95by2050_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.00118623448557
+US,Low_Nuclear_CCS_Cost_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.034259539835123
+US,Low_Nuclear_CCS_Cost_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.140617152505534
+US,Low_Nuclear_CCS_Cost_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.005247631856656
+US,Low_RE_Cost,2050,Other,Curtailment fraction,NA,Dmnl,0.033566608931854
+US,Low_RE_Cost,2050,Other,Storage fraction,Batteries,Dmnl,0.122507433084496
+US,Low_RE_Cost,2050,Other,Storage fraction,PHS,Dmnl,0.004455943357529
+US,Low_RE_Cost_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.060374534549839
+US,Low_RE_Cost_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.131576570335349
+US,Low_RE_Cost_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.001609183510662
+US,Low_RE_Cost_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.062951655015881
+US,Low_RE_Cost_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.149882006277352
+US,Low_RE_Cost_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.00236276281526
+US,Low_RE_Cost_95by2050_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.102490250681683
+US,Low_RE_Cost_95by2050_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.156234682819812
+US,Low_RE_Cost_95by2050_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.001560247902019
+US,Low_RE_Cost_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.036760308400417
+US,Low_RE_Cost_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.12460212109223
+US,Low_RE_Cost_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.003930187093756
+US,Mid_Case,2050,Other,Curtailment fraction,NA,Dmnl,0.0181250460559
+US,Mid_Case,2050,Other,Storage fraction,Batteries,Dmnl,0.122087459364063
+US,Mid_Case,2050,Other,Storage fraction,PHS,Dmnl,0.007946606141032
+US,Mid_Case_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.04870946117551
+US,Mid_Case_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.136906853192152
+US,Mid_Case_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.002364880864337
+US,Mid_Case_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.042654680033634
+US,Mid_Case_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.155332705816903
+US,Mid_Case_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.004206928498034
+US,Mid_Case_95by2050_NoNascent,2050,Medium,Curtailment fraction,NA,Dmnl,0.070461210258075
+US,Mid_Case_95by2050_NoNascent,2050,Medium,Storage fraction,Batteries,Dmnl,0.164303229532192
+US,Mid_Case_95by2050_NoNascent,2050,Medium,Storage fraction,PHS,Dmnl,0.001691487730619
+US,Mid_Case_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.027355097426419
+US,Mid_Case_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.132912177460726
+US,Mid_Case_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.005928659887248
+US,No_IRA,2050,Other,Curtailment fraction,NA,Dmnl,0.021791740537999
+US,No_IRA,2050,Other,Storage fraction,Batteries,Dmnl,0.082816819559957
+US,No_IRA,2050,Other,Storage fraction,PHS,Dmnl,0.005758550426913
+US,No_IRA_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.033228667998546
+US,No_IRA_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.091072715252811
+US,No_IRA_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.001958190771425
+US,No_IRA_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.035265231832957
+US,No_IRA_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.108793926496051
+US,No_IRA_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.004017855114412
+US,No_IRA_95by2050_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.045443530665312
+US,No_IRA_95by2050_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.107071261102835
+US,No_IRA_95by2050_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.003768083135907
+US,No_IRA_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.017211241426645
+US,No_IRA_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.080682111128987
+US,No_IRA_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.005769532877032
+US,No_TC_Expiration,2050,Other,Curtailment fraction,NA,Dmnl,0.105764335360373
+US,No_TC_Expiration,2050,Other,Storage fraction,Batteries,Dmnl,0.13830664726291
+US,No_TC_Expiration,2050,Other,Storage fraction,PHS,Dmnl,0.008597129917945
+US,No_TC_Expiration_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.15752539626125
+US,No_TC_Expiration_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.159775325056036
+US,No_TC_Expiration_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.007900725898327
+US,No_TC_Expiration_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.149456967066842
+US,No_TC_Expiration_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.173472418360232
+US,No_TC_Expiration_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.008477789740167
+US,No_TC_Expiration_95by2050_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.218332013223726
+US,No_TC_Expiration_95by2050_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.187703298601608
+US,No_TC_Expiration_95by2050_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.004973445531841
+US,No_TC_Expiration_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.09977934706121
+US,No_TC_Expiration_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.149958861228685
+US,No_TC_Expiration_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.008113647476373
+US,PVB,2050,Other,Curtailment fraction,NA,Dmnl,0.015266840554814
+US,PVB,2050,Other,Storage fraction,Batteries,Dmnl,0.124916874611564
+US,PVB,2050,Other,Storage fraction,PHS,Dmnl,0.007392469318846
+US,PVB_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.041991367353318
+US,PVB_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.131025527122215
+US,PVB_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.003432397658009
+US,PVB_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.040772798947082
+US,PVB_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.1556279856145
+US,PVB_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.003589980817914
+US,PVB_95by2050_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.064473768264011
+US,PVB_95by2050_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.16231197182546
+US,PVB_95by2050_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.001862003694081
+US,PVB_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.028915545208203
+US,PVB_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.134364360982999
+US,PVB_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.00606181351758
+US,Reduced_RE_Resource,2050,Other,Curtailment fraction,NA,Dmnl,0.025536234315879
+US,Reduced_RE_Resource,2050,Other,Storage fraction,Batteries,Dmnl,0.155774639867919
+US,Reduced_RE_Resource,2050,Other,Storage fraction,PHS,Dmnl,0.008997469112308
+US,Reduced_RE_Resource_100by2035,2050,Other,Curtailment fraction,NA,Dmnl,0.041030573406569
+US,Reduced_RE_Resource_100by2035,2050,Other,Storage fraction,Batteries,Dmnl,0.167989971814731
+US,Reduced_RE_Resource_100by2035,2050,Other,Storage fraction,PHS,Dmnl,0.006313000018111
+US,Reduced_RE_Resource_95by2050,2050,Other,Curtailment fraction,NA,Dmnl,0.042754539841756
+US,Reduced_RE_Resource_95by2050,2050,Other,Storage fraction,Batteries,Dmnl,0.184033223521028
+US,Reduced_RE_Resource_95by2050,2050,Other,Storage fraction,PHS,Dmnl,0.00645983809627
+US,Reduced_RE_Resource_95by2050_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.146963488805657
+US,Reduced_RE_Resource_95by2050_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.237915822879082
+US,Reduced_RE_Resource_95by2050_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.005408793715749
+US,Reduced_RE_Resource_NoNascent,2050,Other,Curtailment fraction,NA,Dmnl,0.104144433296234
+US,Reduced_RE_Resource_NoNascent,2050,Other,Storage fraction,Batteries,Dmnl,0.200157828014518
+US,Reduced_RE_Resource_NoNascent,2050,Other,Storage fraction,PHS,Dmnl,0.007767328938521
+FR,N1 – Reference,2050,High,Curtailment fraction,NA,Dmnl,0.005451528798293
+FR,N1 – Reference,2050,High,Storage fraction,Batteries,Dmnl,0.025124437070396
+FR,N1 – Reference,2050,High,Storage fraction,P2H,Dmnl,0.034605356719602
+FR,N1 – Reference,2050,High,Storage fraction,PHS,Dmnl,0.044560322351268
+FR,N2 – Reference,2050,Other,Curtailment fraction,NA,Dmnl,0.001749271137026
+FR,N2 – Reference,2050,Other,Storage fraction,Batteries,Dmnl,0.006413994169096
+FR,N2 – Reference,2050,Other,Storage fraction,P2H,Dmnl,0.01399416909621
+FR,N2 – Reference,2050,Other,Storage fraction,PHS,Dmnl,0.051603498542274
+FR,N03 – Reference,2050,Medium,Curtailment fraction,NA,Dmnl,0
+FR,N03 – Reference,2050,Medium,Storage fraction,Batteries,Dmnl,0.007590890930883
+FR,N03 – Reference,2050,Medium,Storage fraction,P2H,Dmnl,0
+FR,N03 – Reference,2050,Medium,Storage fraction,PHS,Dmnl,0.062724730323612
+FR,M0 – Sobriety,2050,High,Curtailment fraction,NA,Dmnl,0.023613193403298
+FR,M0 – Sobriety,2050,High,Storage fraction,Batteries,Dmnl,0.05003748125937
+FR,M0 – Sobriety,2050,High,Storage fraction,P2H,Dmnl,0.050974512743628
+FR,M0 – Sobriety,2050,High,Storage fraction,PHS,Dmnl,0.038230884557721
+FR,M1 – Sobriety,2050,Other,Curtailment fraction,NA,Dmnl,0.018841911764706
+FR,M1 – Sobriety,2050,Other,Storage fraction,Batteries,Dmnl,0.041590073529412
+FR,M1 – Sobriety,2050,Other,Storage fraction,P2H,Dmnl,0.033318014705882
+FR,M1 – Sobriety,2050,Other,Storage fraction,PHS,Dmnl,0.045726102941177
+FR,M23 – Sobriety,2050,Medium,Curtailment fraction,NA,Dmnl,0.007109004739337
+FR,M23 – Sobriety,2050,Medium,Storage fraction,Batteries,Dmnl,0.027488151658768
+FR,M23 – Sobriety,2050,Medium,Storage fraction,P2H,Dmnl,0.031042654028436
+FR,M23 – Sobriety,2050,Medium,Storage fraction,PHS,Dmnl,0.043364928909953
+FR,N1 – Sobriety,2050,High,Curtailment fraction,NA,Dmnl,0.002767527675277
+FR,N1 – Sobriety,2050,High,Storage fraction,Batteries,Dmnl,0.006872037914692
+FR,N1 – Sobriety,2050,High,Storage fraction,P2H,Dmnl,0
+FR,N1 – Sobriety,2050,High,Storage fraction,PHS,Dmnl,0.04218009478673
+FR,N2 – Sobriety,2050,Other,Curtailment fraction,NA,Dmnl,0.000393700787402
+FR,N2 – Sobriety,2050,Other,Storage fraction,Batteries,Dmnl,0.00511811023622
+FR,N2 – Sobriety,2050,Other,Storage fraction,P2H,Dmnl,0
+FR,N2 – Sobriety,2050,Other,Storage fraction,PHS,Dmnl,0.061417322834646
+FR,N03 – Sobriety,2050,Medium,Curtailment fraction,NA,Dmnl,0
+FR,N03 – Sobriety,2050,Medium,Storage fraction,Batteries,Dmnl,0.007807807807808
+FR,N03 – Sobriety,2050,Medium,Storage fraction,P2H,Dmnl,0
+FR,N03 – Sobriety,2050,Medium,Storage fraction,PHS,Dmnl,0.079279279279279
+FR,M0 – Reindustrialisation,2050,High,Curtailment fraction,NA,Dmnl,0.036692369050784
+FR,M0 – Reindustrialisation,2050,High,Storage fraction,Batteries,Dmnl,0.204204204204204
+FR,M0 – Reindustrialisation,2050,High,Storage fraction,P2H,Dmnl,0.278678678678679
+FR,M0 – Reindustrialisation,2050,High,Storage fraction,PHS,Dmnl,0.130930930930931
+FR,M1 – Reindustrialisation,2050,Other,Curtailment fraction,NA,Dmnl,0.032869591805534
+FR,M1 – Reindustrialisation,2050,Other,Storage fraction,Batteries,Dmnl,0.054731692401774
+FR,M1 – Reindustrialisation,2050,Other,Storage fraction,P2H,Dmnl,0.04739336492891
+FR,M1 – Reindustrialisation,2050,Other,Storage fraction,PHS,Dmnl,0.032105182693778
+FR,M23 – Reindustrialisation,2050,Medium,Curtailment fraction,NA,Dmnl,0.013318534961154
+FR,M23 – Reindustrialisation,2050,Medium,Storage fraction,Batteries,Dmnl,0.028381163786269
+FR,M23 – Reindustrialisation,2050,Medium,Storage fraction,P2H,Dmnl,0.045029332487712
+FR,M23 – Reindustrialisation,2050,Medium,Storage fraction,PHS,Dmnl,0.031393689551292
+FR,N1 – Reindustrialisation,2050,High,Curtailment fraction,NA,Dmnl,0.006909430438842
+FR,N1 – Reindustrialisation,2050,High,Storage fraction,Batteries,Dmnl,0.031932773109244
+FR,N1 – Reindustrialisation,2050,High,Storage fraction,P2H,Dmnl,0.030252100840336
+FR,N1 – Reindustrialisation,2050,High,Storage fraction,PHS,Dmnl,0.035294117647059
+FR,N2 – Reindustrialisation,2050,Other,Curtailment fraction,NA,Dmnl,0.002417582417582
+FR,N2 – Reindustrialisation,2050,Other,Storage fraction,Batteries,Dmnl,0.028131868131868
+FR,N2 – Reindustrialisation,2050,Other,Storage fraction,P2H,Dmnl,0.012747252747253
+FR,N2 – Reindustrialisation,2050,Other,Storage fraction,PHS,Dmnl,0.038241758241758
+FR,N03 – Reindustrialisation,2050,Medium,Curtailment fraction,NA,Dmnl,0.00082349711776
+FR,N03 – Reindustrialisation,2050,Medium,Storage fraction,Batteries,Dmnl,0.016469942355202
+FR,N03 – Reindustrialisation,2050,Medium,Storage fraction,P2H,Dmnl,0
+FR,N03 – Reindustrialisation,2050,Medium,Storage fraction,PHS,Dmnl,0.044743343398298

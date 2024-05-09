@@ -1,0 +1,83 @@
+PFU_machine,EU_category
+Air compressors -> HPA,HPA
+Charcoal stoves -> MTH.100.C,MTH
+Computers -> IP,IP
+Diesel HDVs -> RoP,RoP
+Domestic appliances -> MD,MD
+Domestic electric lamps -> L,L
+Domestic electric ovens -> MTH.200.C,MTH
+Domestic gas ovens -> MTH.200.C,MTH
+Electric cars -> RoP,RoP
+Electric pumps -> HPL,HPL
+Electric space heaters -> LTH.20.C,LTH
+Electro-chemical processors -> HTH.960.C,HTH
+Gas space heaters -> LTH.20.C,LTH
+Gas water heaters -> MTH.100.C,MTH
+Gasoline LDVs -> RoP,RoP
+Gasoline motorcycles -> RoP,RoP
+HVAC -> LTC.20.C,LTC
+Industrial electric lamps -> L,L
+Industrial electric process heaters -> HTH.600.C,HTH
+Industrial fans -> KE,KE
+Industrial refrigerators -> LTC.-10.C,LTC
+Machine tools -> MW,MW
+Material handlers -> MD,MD
+Non-energy consumption -> NEU,NEU
+Oil space heaters -> LTH.20.C,LTH
+Oil water heaters -> MTH.100.C,MTH
+Refrigerators -> LTC.-10.C,LTC
+Room air conditioners -> LTC.20.C,LTC
+Static diesel engines -> MD,MD
+Steam cracking furnaces -> HTH.850.C,HTH
+Wood stoves -> MTH.100.C,MTH
+Commercial gas ovens -> MTH.200.C,MTH
+Diesel bulldozers -> MW,MW
+Diesel haulage trucks -> RoP,RoP
+Diesel hydraulic mobiles -> MW,MW
+Kerosene stoves -> MTH.100.C,MTH
+LPG stoves -> MTH.200.C,MTH
+Static gasoline engines -> MD,MD
+Tractors -> MW,MW
+Natural gas vehicles -> RoP,RoP
+Domestic aircraft -> MD,MD
+Domestic boats -> MP,MP
+Blast oxygen furnaces -> HTH.1600.C,HTH
+Coal stoves -> MTH.200.C,MTH
+Commercial electric ovens -> MTH.200.C,MTH
+Commercial indoor electric lamps -> L,L
+Commercial outdoor electric lamps -> L,L
+Electric water heaters -> MTH.100.C,MTH
+Heat machines -> MTH.300.C,MTH
+Ammonia synthesizers -> HTH.400.C,HTH
+Clinker kilns -> HTH.1000.C,HTH
+Bayer kilns -> MTH.200.C,MTH
+Diesel pumps -> HPL,HPL
+Diesel rock borers -> MF,MF
+Diesel trains -> RaP,RaP
+Electric arc furnaces -> HTH.1600.C,HTH
+Electric cable cranes -> MW,MW
+Electric cable shovels -> MW,MW
+Electric continuous miners -> MF,MF
+Electric hand tools -> MD,MD
+Electric hydraulic mobiles -> MW,MW
+Electrolytic smelters -> HTH.960.C,HTH
+Fishing vessels -> MP,MP
+Ore grinding mills -> MF,MF
+Small scale biomass boilers -> HTH.1300.C,HTH
+Solar thermal water heaters -> LTH.60.C,LTH
+Electric trains -> RaP,RaP
+Steam trains -> RaP,RaP
+Kerosene lamps -> L,L
+Pipeline gas compressors -> HPNG,HPNG
+Steam boats -> MP,MP
+Town gas lamps -> L,L
+Ground source heat pumps -> LTH.20.C,LTH
+Diesel LDVs -> RoP,RoP
+Televisions -> L,L
+Domestic fans -> KE,KE
+Paper machines -> MW,MW
+International aircraft -> MD,MD
+Bulk carrier ships -> MP,MP
+Container ships -> MP,MP
+General cargo ships -> MP,MP
+Tanker ships -> MP,MP

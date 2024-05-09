@@ -1,0 +1,9 @@
+World_fixes: See Checking World EROIs.xlsx file
+
+This script fixes the data for coal mines in China, and for oil and gas extraction and oil refineries in the USSR.
+
+* Line 2: Compensates for new Natural gas [from Resources] needed for the EIOU of coal mines, oil and gas extraction, and oil refineries (lines 3-4-5).
+* Line 3: Adds EIOU for Chinese coal mines.
+* Lines 4 and 6: Add, or subtract, EIOU for USSR oil and gas extraction.
+* Lines 5 and 7: Add, or subtract, EIOU for USSR oil refineries
+* Line 8: Balances out adding a consumption flow.
