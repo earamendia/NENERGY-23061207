@@ -1,35 +1,155 @@
-READ ME
+Code to calculate useful-stage EROIs for fossil fuels and the EROIs
+equivalent of renewable energy
 ================
-Emmanuel Aramendia
-2024-05-09
 
-# Testing
+## Introduction
 
-README:
+This repository contains the code needed to replicate the analysis
+conducted in the Nature Energy paper “Estimation of useful-stage energy
+returns on investment for fossil fuels and implications for renewable
+energy systems” ([Aramendia et al.
+(2024)](https://doi.org/10.1038/s41560-024-01518-6)).
 
-Assumes all datasets are together in a “Datasets” folder. If different
-then update filepaths. Potentially aggregate regions for lower
-computational requirements
+Besides the code contained in this repository, specific input data is
+required, see “Reproducing the analysis.”
 
-run renv::restore()
+The analysis is structured using a
+[targets](https://books.ropensci.org/targets/) pipeline.
 
-required_erois stand for “equivalent” in the paper
+## Repository structure
 
-## Statement of need
+The repository is structured as follows:
 
-Extended World Energy Balance (EWEB) data from the [International Energy
-Agency (IEA)](http://www.iea.org) (IEA) are indispensable for societal
-energy analysis and societal exergy analysis (SEA).
+- The “\_targets.R” file contains the pipeline;
+- The “setup.R” file allows to define paths to datasets and to change
+  the time period of analysis;
+- The “Functions” folder contains all the scripts defining the functions
+  used in the “\_targets.R” file;
+- The “Figures_Code” folder contains all the scripts required to
+  reproduce the paper’s figures once the pipeline has been calculated;
+- The “inst” file contains some required input data (like scenario data
+  to conduct the intermittency analysis);
+- The “renv” folder contains files required to save the library
+  environment using
+  [renv](https://rstudio.github.io/renv/articles/renv.html).
 
-## History
+## Reproducing the analysis
 
-The functions in this package were used in [Heun et al.
-(**Heun:2018?**)](https://doi.org/10.1016/j.apenergy.2018.05.109).
+To run the analysis, the first action is to make sure that the required
+datasets have been correctly downloaded and that the “setup.R” script is
+correctly used to locate them. Specifically, the following datasets are
+required:
 
-Permission to distribute IEA extended energy balance data for two years
-and two countries was obtained by Matthew Kuperus Heun from Nick
-Johnstone of the IEA during a phone call at 11 AM on Mon, 3 June 2019.
+- The [International Energy Agency](https://www.iea.org/) (IEA) Extended
+  World Energy Balances (EWEB). An IEA license is required to access the
+  dataset. Then, the path to the dataset needs to be indicated using the
+  “iea_weeb_file_setup” variable in the “setup.R” file;
+- [Exiobase v3.8.2](https://zenodo.org/records/5589597): This dataset is
+  free to access and download. The “IOT_YYYY_ixi.zip” files need to be
+  downloaded for years 1995-2015 (the code takes care of unzipping the
+  files). The path to the dataset needs to be indicated using the
+  “path_to_exiobase_setup” variable in the “setup.R” file;
+- The Physical Supply Use Tables describing the Country-Level
+  Primary-Final-Useful energy and exergy balances [Marshall et al.
+  (2023)](https://doi.org/10.5518/1199). These balances include the raw
+  EWEB IEA data and are therefore also subject to the IEA license. The
+  dataset may be shared to any person having access to IEA data via
+  institutional or personal license. The path to the dataset needs to be
+  indicated using the “gpfu_psut_file_setup” variable in the “setup.R”
+  file.
 
-## More Information
+Note that when specifying in the “setup.R” the filepaths to datasets, it
+is expected that all datasets are in the same overarching folder
+indicated by the “path_to_datasets_setup” variable. So, if the IEA data
+is stored in the “Documents/Datasets/IEA/” folder, then
+“path_to_datasets_setup” should be set to “Documents/Datasets/” and
+“iea_weeb_file_setup” to “IEA/file.csv”.
+
+Then, on needs to load the library environment saved with
+[renv](https://rstudio.github.io/renv/articles/renv.html) by running:
+
+``` r
+renv::restore()
+```
+
+To trigger the targets pipeline, one can then run the following line:
+
+``` r
+targets::tar_make()
+```
+
+**Important caveat**: The pipeline is very heavy and running it on a
+standard desktop or laptop is highly likely to fail and to cause the
+machine to freeze. This code was run on a server with a RAM of 120 GB.
+
+<!-- For (slightly) lower computing requirements, the "aggregate" argument of the "aggregate_specified_regional_iea_data" function when calculating the specified_aggregated_regional_iea_data target may be set to TRUE (note that the results will then be different than those of the paper). -->
+
+## Related works and used packages
+
+This works builds on previous work developing a Physical Supply Use
+Table framework ([Heun, Owen, and Brockway
+(2018)](https://doi.org/10.1016/j.apenergy.2018.05.109)), and then
+developing this into a Multi-Regional Physical Supply Use Table
+framework using the IEA’s EWEB ([Aramendia et al.
+(2022)](https://doi.org/10.1016/j.apenergy.2021.118413)).
+
+Throughout this progress, a set of helpful packages, all of which are
+used in this pipeline, have been developed:
+
+- [IEATools](https://github.com/MatthewHeun/IEATools): allows to load,
+  clean, and specify the IEA’s EWEB, and then to construct Physical
+  Supply Use Tables representing the IEA’s EWEB;
+- [ECCTools](https://github.com/earamendia/ECCTools): provides functions
+  to build Multi-Regional Physical Supply Use Tables;
+- [Recca](https://github.com/MatthewHeun/Recca): provides functions to
+  perform input-output calculations using the Physical Supply Use Tables
+  built from IEA data;
+- [EROITools](https://github.com/earamendia/EROITools): provides
+  functions to aggregate the EROI calculations performed at the product
+  level using the Recca package.
 
 ## References
+
+<div id="refs" class="references csl-bib-body hanging-indent">
+
+<div id="ref-aramendiaUsefulStageEROIs" class="csl-entry">
+
+Aramendia, Emmanuel, Paul E. Brockway, Peter G. Taylor, Jonathan B.
+Norman, Matthew K. Heun, and Zeke Marshall. 2024. “Estimation of
+Useful-Stage Energy Returns on Investment for Fossil Fuels and
+Implications for Renewable Energy Systems.” *Nature Energy* xxx: xxx.
+<https://doi.org/10.1038/s41560-024-01518-6>.
+
+</div>
+
+<div id="ref-aramendiaDevelopingMultiRegionalPhysical2022"
+class="csl-entry">
+
+Aramendia, Emmanuel, Matthew K. Heun, Paul E. Brockway, and Peter G.
+Taylor. 2022. “Developing a Multi-Regional Physical Supply Use Table
+Framework to Improve the Accuracy and Reliability of Energy Analysis.”
+*Applied Energy* 310: 118413.
+<https://doi.org/10.1016/j.apenergy.2021.118413>.
+
+</div>
+
+<div id="ref-Heun:2018" class="csl-entry">
+
+Heun, Matthew Kuperus, Anne Owen, and Paul E. Brockway. 2018. “A
+Physical Supply-Use Table Framework for Energy Analysis on the Energy
+Conversion Chain.” *Applied Energy* 226: 1134–62.
+<https://doi.org/10.1016/j.apenergy.2018.05.109>.
+
+</div>
+
+<div id="ref-pfudatabase" class="csl-entry">
+
+Marshall, Zeke, Matthew K. Heun, Paul Brockway, Emmanuel Aramendia, Paul
+Steenwyk, Thomas Relph, Michelle Widjanarko, Jeanghoo Kim, Anjana
+Sainju, and Julian Iturbe. 2023. “A Country-Level Primary-Final-Useful
+(CL-PFU) Energy and Exergy Database V1.2, 1960-2020. University of
+Leeds. \[Dataset\].” <https://doi.org/10.5518/1199>.
+
+</div>
+
+</div>
